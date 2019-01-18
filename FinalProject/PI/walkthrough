@@ -1,0 +1,19 @@
+Scenario:logged in user locates all items of category TSHIRT with a price in the range 5 to 10 dollars (inclusive) and places and order for two such items
+0) shopper:enter category TSHIRT with a price in the range 5 to 10 dollars
+given category,price range
+1) system:get all items of category TSHIRT with a price in the range 5 to 10 dollars
+given category,price range
+2) shopper:shopper enters the quantity of the first selected item,place into the cart
+given selected quantity,cart
+3) system:minus the quantity demanded of the first,updates the available quantity of the first
+given selected quantity,available quantity
+4) shopper:shopper enters the quantity of the second selected item,place into the cart
+given selected quantity,cart
+5) system:minus the quantity demanded of the second,updates the available quantity of the second
+given selected quantity,available quantity
+6) shopper:shopper enters the quantity of the first selected item again,place into the cart,the order merge with the previous order on first selected item
+given selected quantity,cart
+7) system:minus the quantity demanded of the first,updates the available quantity of the first
+given selected quantity,available quantity
+8) shopper:checkouts and generates an invoice adding to list of invoices,and then empty the cart
+given cart,list of invoices

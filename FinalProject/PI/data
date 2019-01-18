@@ -1,0 +1,17 @@
+Data Structure:
+We use ArrayList to store the list of Category in the Background,
+list of Product in the Background,
+list of Invoice associating with individual Shopper,
+list of Product associating with individual Shopper's shopping cart
+list of Product in ProductManager,
+list of Category in CatagoryManager,
+list of Invoice in InvoiceManager,
+list of Background in BackgroundManager,
+list of Product in Invoice,
+list of Administrator in AdministratorManager,
+list of Shopper in ShopperManager.
+
+
+
+We use a binary file to store the data.
+We serialize all the classes so they can be written to and read from the binary file.

@@ -1,0 +1,58 @@
+Date and time: 23 Jul 2016, 14:00
+Location: BA 3200
+Current state of the project:
+	-recap: the previous crc template
+Tasks for this meeting:
+	-implement: Category,DistributionCentre,
+	Alogrithm,Edge,Graph,GraphInterface,Invoice,Order,
+	Product,ShoppingCart,User,Vertex,VertexExistsException-(Yufeng Li)
+	-implement: CategoryManager,InvoiceManager,BackgroundManager-(Xiao Wang)
+    -implement: Customer,Administrator,Background,Shopper,User-(Jiayu Li)
+    -implement:AdministratorManager,ShopperManager,ProductManager-(Yang Wang)
+
+Date and time: 24 Jul 2016, 14:00
+Location: Bahen
+Yufeng Li:
+	-Fixed NotAvailableException exception in ShoppingCart
+	-Added Javadoc for Alogrithm,Graph,GraphInterface,Edge,Vertex,Product,Order,DistributionCentre,
+	exceptions
+Yang Wang:
+    -Added Javadoc for Manager classes,Category
+Jiayu Li:
+    -Fixed the alogrithm
+    -Added Javadoc for User and its all subclasses, Background
+
+Date and time: 25 Jul 2016, 15:00
+Location: Bahen
+Yufeng Li:
+	-minor change to Order,Product
+	
+Yang Wang:
+    -Discuss the Project methods
+Jiayu Li:
+    -implements Project methods
+    -change Background according to Project
+    
+Date and time: 26 Jul 2016, 21:00
+Location: Bahen
+Yufeng Li:
+	-Discuss minor issue about shopping cart
+	
+Yang Wang:
+    -Add new javadoc for modified classes
+Jiayu Li:
+    -Add new javadoc for modified classes
+    -minor changes to shopping cart
+Xiao Wang:
+    -Add new javadoc for modified classes
+    
+Date and time: 28 Jul 2016, 21:00
+Location: Bahen
+
+Yang Wang:
+    -Upload Crc template
+Jiayu Li:
+    -minor changes to Project
+
+    
+	
